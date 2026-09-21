@@ -35,6 +35,17 @@
       padding: 2rem 1.5rem;
     }
 
+    /* New Profile Picture Styling */
+    .profile-photo {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%; /* Makes it circular */
+      object-fit: cover; /* Prevents stretching */
+      border: 4px solid var(--primary-light);
+      margin-bottom: 1.5rem;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
     h1 {
       margin: 0;
       font-size: 2.25rem;
@@ -131,9 +142,12 @@
 </head>
 <body>
 
-  <!-- Header & Personal Statement (2 Points) -->
+  <!-- Header, Profile Picture, & Personal Statement -->
   <header>
     <div class="container">
+      <!-- UPDATE: If your file is a PNG, change profile.jpg to profile.png below -->
+      <img src="profile.jpg" alt="Asket Singh Profile Photo" class="profile-photo">
+      
       <h1>Asket Singh</h1>
       <div class="contact-info">
         Woodbridge, NJ | <a href="mailto:as4996@scarletmail.rutgers.edu">as4996@scarletmail.rutgers.edu</a> | (732) 500-0309
@@ -146,7 +160,7 @@
 
   <main class="container">
     
-    <!-- Skills Showcase (2 Points) -->
+    <!-- Skills Showcase -->
     <section id="skills">
       <h2>Skills & Technical Competencies</h2>
       <ul class="skills-grid">
@@ -160,7 +174,7 @@
       </ul>
     </section>
 
-    <!-- Projects Section (2 Points) -->
+    <!-- Projects Section -->
     <section id="projects">
       <h2>Featured Projects</h2>
 
@@ -169,7 +183,7 @@
         <h3>Daily Revenue Reconciliation & Auditing Dashboard</h3>
         <p>Designed a spreadsheet-based tracking system for JDK Petroleum LLC to reconcile $2.6K–$7K in daily cash, credit, and lottery sales with 100% accuracy while tracking weekly fuel inventory levels to eliminate volume discrepancies.</p>
         <div class="project-links">
-          <a href="https://github.com/asket11105/portfolio" target="_blank">View Code Repository</a>
+          <a href="https://github.com/as4996-lang/portfolio-" target="_blank">View Code Repository</a>
         </div>
       </div>
 
@@ -178,7 +192,7 @@
         <h3>Philanthropy Campaign & Event Logistics Management</h3>
         <p>Led strategy, budget execution, and volunteer organization for Delta Phi Fraternity, organizing 6–8 fundraising events per semester that raised over $3,000 for local veterans and community programs.</p>
         <div class="project-links">
-          <a href="https://github.com/asket11105/portfolio" target="_blank">View Project Summary</a>
+          <a href="https://github.com/as4996-lang/portfolio-" target="_blank">View Project Summary</a>
         </div>
       </div>
 
@@ -187,8 +201,8 @@
         <h3>Personal Finance & Career Portfolio Website</h3>
         <p>Built and published a personal professional website using HTML, CSS, and GitHub Pages to display academic coursework, professional experience, and key skills for recruiters.</p>
         <div class="project-links">
-          <a href="https://github.com/asket11105/portfolio" target="_blank">View Repository</a>
-          <a href="https://asket11105.github.io/portfolio/" target="_blank">Live Site</a>
+          <a href="https://github.com/as4996-lang/portfolio-" target="_blank">View Repository</a>
+          <a href="https://as4996-lang.github.io/portfolio-/" target="_blank">Live Site</a>
         </div>
       </div>
 
